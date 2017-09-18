@@ -1,6 +1,8 @@
 teb_local_planner ROS Package
 =============================
 
+**We have to use the kinetic version because only the kinetic version supports our non-holonomic robot base (http://wiki.ros.org/teb_local_planner/Tutorials/Planning%20for%20holonomic%20robots).**
+
 The teb_local_planner package implements a plugin to the base_local_planner of the 2D navigation stack. 
 The underlying method called Timed Elastic Band locally optimizes the robot's trajectory with respect to trajectory execution time, 
 separation from obstacles and compliance with kinodynamic constraints at runtime.
